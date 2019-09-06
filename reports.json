@@ -1,0 +1,600 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:34:58.877Z",
+        "line": 21,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21605932700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on th Login Buttonn",
+            "match": {
+              "location": "AddToCart.user_clicks_on_th_Login_Buttonn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207307200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Lalitha\" in the Fieldd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AddToCart.user_enters_in_the_Fieldd(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232001200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "users enters \"password123\" in the fieldd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 13
+                }
+              ],
+              "location": "AddToCart.users_enters_in_the_fieldd(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2021267900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on  Loginn",
+            "match": {
+              "location": "AddToCart.click_on_Loginn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105863300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"Head\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Head\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AddToCart.user_enters_in_the_search_field(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1776143700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on the  search button",
+            "match": {
+              "location": "AddToCart.user_clicks_on_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1412557400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Add to cart",
+            "match": {
+              "location": "AddToCart.add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:TestMe/CaseStudy/AddToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:35:26.269Z",
+        "line": 6,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16350367900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the homePage",
+            "match": {
+              "location": "Back.user_enters_the_homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189815800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search for the product \"head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Back.user_search_for_the_product(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1601319500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the  search  buttonnn",
+            "match": {
+              "location": "Back.user_clicks_on_the_search_buttonnn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4787853900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add to carttt",
+            "match": {
+              "location": "Back.add_to_carttt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"header\"]/div[1]/div/div/div[2]/div/ul/li[1]/a\"}\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027CDC2-D-47S3N62\u0027, ip: \u002710.237.17.43\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\\Users\\TRAINI~1.29\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c4a15eea8596bbfad8f69980a3583e24\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"header\"]/div[1]/div/div/div[2]/div/ul/li[1]/a}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat TestMe.CaseStudy.Back.page_navigates_to_Login_page(Back.java:54)\r\n\tat ✽.page navigates to Login page(classpath:TestMe/CaseStudy/Back.feature:11)\r\n",
+              "duration": 65232300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "page navigates to Login page",
+            "match": {
+              "location": "Back.page_navigates_to_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:TestMe/CaseStudy/Back.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:35:49.294Z",
+        "line": 6,
+        "name": "Successful Registration",
+        "description": "",
+        "id": "registration;successful-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22079342500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the registration page",
+            "match": {
+              "location": "Reg.user_enters_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4698145600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks the Sign-up button",
+            "match": {
+              "location": "Reg.clicks_the_Sign_up_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223644300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Name in the User Name \"Madhu1735478\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Madhu1735478\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Reg.user_Name_in_the_User_Name_Field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148462100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "first name in the First Name \"katemal\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"katemal\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Reg.first_name_in_the_First_Name_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169570200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "last name in the Last Name \"priyan\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priyan\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Reg.last_name_in_the_Last_Name_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172793900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Password in the password \"1234\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Reg.password_in_the_password_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133341600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Confirm Password in the Confirm Password \"1234\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Reg.confirm_Password_in_the_Confirm_Password_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176403500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Gender in the Gender \"Male\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Reg.gender_in_the_Gender_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269275300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "E -Mail in the E -Mail \"madhu16menon@gmail.com\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"madhu16menon@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Reg.e_Mail_in_the_E_Mail_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134543100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Mobile Number in the Mobile Number \"9876543210\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876543210\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Reg.mobile_Number_in_the_Mobile_Number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 392578500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "DOB in the DOB Field",
+            "match": {
+              "location": "Reg.dob_in_the_DOB_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138771300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Address in the Address \"Velachey\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Velachey\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Reg.address_in_the_Address_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139379900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Security Question in the Security Question field",
+            "match": {
+              "location": "Reg.security_Question_in_the_Security_Question_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127913700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Answer in the Answer \"Velachery\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Velachery\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Reg.answer_in_the_Answer_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509080600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on Register button",
+            "match": {
+              "location": "Reg.click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat TestMe.CaseStudy.Reg.home_page_is_displayed(Reg.java:141)\r\n\tat ✽.Home page is displayed(classpath:TestMe/CaseStudy/Register.feature:22)\r\n",
+              "duration": 2365000,
+              "status": "pending"
+            },
+            "line": 22,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "Reg.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": " This is for Registration.",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "classpath:TestMe/CaseStudy/Register.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:36:18.855Z",
+        "line": 16,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18346650200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on th Login Button",
+            "match": {
+              "location": "SignIn.user_clicks_on_th_Login_Button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165476600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Lalitha\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 12
+                }
+              ],
+              "location": "SignIn.user_enters_in_the_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186596200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "users enters \"password123\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 13
+                }
+              ],
+              "location": "SignIn.users_enters_in_the_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325868800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on  Login",
+            "match": {
+              "location": "SignIn.click_on_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Cannot create function name from empty sentence\r\n\tat cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)\r\n\tat cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)\r\n\tat cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)\r\n\tat cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)\r\n\tat cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)\r\n\tat cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)\r\n\tat cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:49)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n\tat ✽.(classpath:TestMe/CaseStudy/SignIn.feature:11)\r\n",
+              "duration": 65900,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:TestMe/CaseStudy/SignIn.feature",
+    "tags": []
+  }
+]
